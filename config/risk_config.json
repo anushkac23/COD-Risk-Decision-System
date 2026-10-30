@@ -1,0 +1,24 @@
+{
+    "risk_thresholds": {
+        "low": 15,
+        "medium": 30,
+        "high": 50
+    },
+
+    "business_costs": {
+        "forward_shipping": 65,
+        "return_shipping": 65,
+        "packaging_handling": 25,
+        "damage_probability": 0.08,
+        "damaged_product_cost": 180,
+        "prepaid_discount_percent": 5,
+        "customer_acquisition_cost": 300
+    },
+
+    "decision_rules": {
+        "low": "SHIP_AS_IS",
+        "medium": "WHATSAPP_CONFIRMATION",
+        "high": "PREPAID_NUDGE",
+        "very_high": "HOLD_FOR_REVIEW"
+    }
+}
