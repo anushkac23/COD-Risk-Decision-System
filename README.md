@@ -79,10 +79,8 @@ COD-Risk-Decision-System/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/anushkac23/COD-Risk-Decision-System.git
 cd COD-Risk-Decision-System
-```
-
 ### 2. Create a virtual environment
 
 ```bash
